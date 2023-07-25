@@ -36,3 +36,8 @@ app.listen(port, () => {
     }
 );
 ```
+- Inicializar o typescript com o comando abaixo:
+```bash
+yarn tsc --init
+```
+- Esse comando irá criar o arquivo `tsconfig.json`.
