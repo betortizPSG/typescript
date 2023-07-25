@@ -40,4 +40,12 @@ app.listen(port, () => {
 ```bash
 yarn tsc --init
 ```
-- Esse comando irá criar o arquivo `tsconfig.json`.
+- Esse comando irá criar o arquivo `tsconfig.json`
+- Dentro do arquivo `tsconfig.json` procurar o código `outDir` descomentar e substituir o `./` por `./dist`
+```ts
+    // "inlineSourceMap": true,                          /* Include sourcemap files inside the emitted JavaScript. */
+    // "outFile": "./",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+     "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    // "removeComments": true,                           /* Disable emitting comments. */
+    // "noEmit": true, 
+```
