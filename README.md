@@ -16,3 +16,5 @@ yarn add nodemon -D
 yarn add typescript -D
 yarn add @types/express -D
 ```
+### Passo 2:
+- Criar uma a pasta `src` e dentro dessa pasta o arquivo `server.ts`.
