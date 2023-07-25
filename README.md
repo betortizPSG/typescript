@@ -1,4 +1,4 @@
-# Configuração
+# Configuração do ambiente de desenvolvimento
 
 ## Iniciar um projeto
 ```bash
