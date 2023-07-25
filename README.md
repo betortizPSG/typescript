@@ -49,3 +49,9 @@ yarn tsc --init
     // "removeComments": true,                           /* Disable emitting comments. */
     // "noEmit": true, 
 ```
+- Executar o comando abaixo:
+```bash
+yarn tsc
+```
+- Esse comando irá converter o arquivo `server.ts` em uma pasta `dist/server.js`
+- Esse arquivo que será executado pelo nodejs
