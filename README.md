@@ -1,6 +1,6 @@
 # Configuração
 
 ## Instalar dependencias
-```bash
+bash
 yarn add express
-```
+
