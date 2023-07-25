@@ -55,3 +55,14 @@ yarn tsc
 ```
 - Esse comando irá converter o arquivo `server.ts` em uma pasta `dist/server.js`
 - Esse arquivo que será executado pelo nodejs
+- No arquivo `package.json` criar o script de execução com o `nodemon`
+```ts
+  "scripts": {
+    "dev": "nodemon dist/server.js",
+    "build": "tsc -p ."
+  },
+```
+- Execute o servidor:
+```bash
+yarn dev
+```
