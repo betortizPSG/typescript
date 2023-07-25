@@ -1,4 +1,4 @@
-# Configuração
+# Configuração do ambiente de desenvolvimento
 
 ## Iniciar um projeto
 ```bash
@@ -16,4 +16,3 @@ yarn add nodemon -D
 yarn add typescript -D
 yarn add @types/express -D
 ```
-### Passo 2:
