@@ -18,3 +18,21 @@ yarn add @types/express -D
 ```
 ### Passo 2:
 - Criar uma a pasta `src` e dentro dessa pasta o arquivo `server.ts`.
+- Configurar o servidor `server.ts`.
+```ts
+import express from 'express';
+
+const app = express();
+
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+    }
+);
+
+app.listen(port, () => {
+    console.log(`Server started at http://localhost:${port}`);
+    }
+);
+```
